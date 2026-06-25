@@ -11,7 +11,7 @@ return a + b;
     } 
 } 
  
-public class SimpCalc { 
+public class Calculator { 
     public static void main(String[] args) { 
  
         Calculator calc = new Calculator(); 
