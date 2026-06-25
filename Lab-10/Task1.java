@@ -1,0 +1,39 @@
+abstract class Shape { 
+abstract void area(); 
+} 
+class Circle extends Shape { 
+    double radius; 
+ 
+    Circle(double radius) { 
+        this.radius = radius; 
+    } 
+ 
+    @Override 
+    void area() { 
+        System.out.println("Area of Circle: " + (3.1416 * radius * radius)); 
+    } 
+} 
+ 
+class Rectangle extends Shape { 
+    double length, width; 
+ 
+    Rectangle(double length, double width) { 
+        this.length = length; 
+        this.width = width; 
+    } 
+ 
+    @Override 
+    void area() { 
+        System.out.println("Area of Rectangle: " + (length * width)); 
+    } 
+} 
+ 
+public class Task1 { 
+    public static void main(String[] args) { 
+        Circle c = new Circle(8); 
+        Rectangle r = new Rectangle(5, 3); 
+ 
+        c.area(); 
+        r.area(); 
+    } 
+}
