@@ -18,7 +18,7 @@ class Rectangle extends MyShape {
     } 
 } 
  
-public class MyShapeStudy { 
+public class Task2 { 
     public static void main(String[] args) { 
  
         MyShape s = new MyShape(); 
