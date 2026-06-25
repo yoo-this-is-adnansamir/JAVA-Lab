@@ -16,7 +16,7 @@ System.out.println("Department: " + department);
 System.out.println("Institution: " + institution);
 }
 public static void main(String[] args) {
-IDCard myID = new IDCard("Mohammed Arif ", 251043, "CCE", "International Islamic University Chittagong");
+IDCard myID = new IDCard("Adnan Samir ", 253017, "CCE", "International Islamic University Chittagong");
 myID.showID();
 }
 }
