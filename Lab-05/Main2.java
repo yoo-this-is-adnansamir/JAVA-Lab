@@ -2,7 +2,7 @@ class BankAccount {
 int accountNumber;
 String accountHolderName;
 double balance;
-static String bankName = "Pubali Bank";
+static String bankName = "Islami Bank";
 BankAccount(int accNum, String name, double bal) {
 accountNumber = accNum;
 accountHolderName = name;
